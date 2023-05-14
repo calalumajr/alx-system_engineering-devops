@@ -1,4 +1,10 @@
 #!/usr/bin/env ruby
-#creating a Ruby script that accepts one argument and passes it to a regular expression matching method
 
-puts ARGV[0].scan(/[A-Z]+/).join
+input = ARGV[0]
+
+if input
+  puts input.scan(/[A-Z]+/).join
+else
+  puts "Please provide an input string as an argument."
+end
+
