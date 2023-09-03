@@ -1,2 +1,2 @@
 #script to conect to server using ssh and the private key "school"
-ssh -i ~/.ssh/school ubuntu@54.87.170.144
+ssh -i ~/.ssh/school ubuntu@54.167.175.39
